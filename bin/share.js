@@ -51,7 +51,7 @@ module.exports = function (argv) {
     logger.status('Creating Link...', 2) // reserve for dat link
 
     if ((archive.live || archive.owner) && archive.key) {
-      logger.status(chalk.bold('[Sharing] ') + chalk.blue.underline(archive.key.toString('hex')), 2)
+      logger.status(chalk.bold('[Sharing] ') + chalk.blue.underline('https://dat.land/#' + archive.key.toString('hex')), 2)
       var swarm = replicate(argv, archive)
       swarmLogger(swarm, logger)
     }

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 var args = require('minimist')(process.argv.splice(2), {
   alias: {p: 'port', q: 'quiet', v: 'version', s: 'static', r: 'resume'},
-  boolean: ['color', 'static', 'quiet', 'version', 'list'],
+  boolean: ['color', 'static', 'quiet', 'version', 'list', 'webrtc'],
   default: {color: true}
 })
 
