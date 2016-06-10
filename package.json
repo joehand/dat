@@ -28,6 +28,7 @@
     "debug": "^2.2.0",
     "discovery-swarm": "^3.4.0",
     "dns-discovery": "^5.3.3",
+    "electron-webrtc": "^0.2.5",
     "folder-walker": "^2.0.2",
     "get-browser-rtc": "^1.0.2",
     "home-dir": "^1.0.0",
